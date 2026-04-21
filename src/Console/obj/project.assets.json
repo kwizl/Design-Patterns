@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\DesignPatterns.csproj",
+      "projectUniqueName": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\Console\\DesignPatterns.csproj",
       "projectName": "DesignPatterns",
-      "projectPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\DesignPatterns.csproj",
+      "projectPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\Console\\DesignPatterns.csproj",
       "packagesPath": "C:\\Users\\martinn\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\obj\\",
+      "outputPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj": {
-              "projectPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj"
+            "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\SingletonPattern.csproj": {
+              "projectPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\SingletonPattern.csproj"
             }
           }
         }

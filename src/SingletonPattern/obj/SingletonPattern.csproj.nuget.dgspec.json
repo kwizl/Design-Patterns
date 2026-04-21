@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj": {}
+    "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\SingletonPattern.csproj": {}
   },
   "projects": {
-    "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj": {
+    "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\SingletonPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj",
+        "projectUniqueName": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\SingletonPattern.csproj",
         "projectName": "SingletonPattern",
-        "projectPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj",
+        "projectPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\SingletonPattern.csproj",
         "packagesPath": "C:\\Users\\martinn\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\obj\\",
+        "outputPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

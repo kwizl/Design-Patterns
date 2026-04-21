@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YBzI223RGrE=",
+  "dgSpecHash": "Jyp89TV/29c=",
   "success": true,
-  "projectFilePath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj",
+  "projectFilePath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\SingletonPattern\\SingletonPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
