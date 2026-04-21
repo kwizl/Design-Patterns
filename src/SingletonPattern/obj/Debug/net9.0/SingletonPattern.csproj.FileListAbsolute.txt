@@ -1,0 +1,11 @@
+D:\Source\Repos\CSharp\SingletonPattern\bin\Debug\net9.0\SingletonPattern.deps.json
+D:\Source\Repos\CSharp\SingletonPattern\bin\Debug\net9.0\SingletonPattern.dll
+D:\Source\Repos\CSharp\SingletonPattern\bin\Debug\net9.0\SingletonPattern.pdb
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\SingletonPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\SingletonPattern.AssemblyInfoInputs.cache
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\SingletonPattern.AssemblyInfo.cs
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\SingletonPattern.csproj.CoreCompileInputs.cache
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\SingletonPattern.dll
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\refint\SingletonPattern.dll
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\SingletonPattern.pdb
+D:\Source\Repos\CSharp\SingletonPattern\obj\Debug\net9.0\ref\SingletonPattern.dll

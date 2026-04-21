@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\DesignPatterns.csproj": {}
+  },
+  "projects": {
+    "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\DesignPatterns.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\DesignPatterns.csproj",
+        "projectName": "DesignPatterns",
+        "projectPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\DesignPatterns.csproj",
+        "packagesPath": "C:\\Users\\martinn\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\martinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj": {
+                "projectPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj",
+        "projectName": "SingletonPattern",
+        "projectPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\SingletonPattern.csproj",
+        "packagesPath": "C:\\Users\\martinn\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\CSharp\\DesignPatterns\\src\\SingletonPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\martinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
