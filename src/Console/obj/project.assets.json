@@ -12,6 +12,16 @@
           "bin/placeholder/AdapterPattern.dll": {}
         }
       },
+      "DecoratorPattern/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/DecoratorPattern.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DecoratorPattern.dll": {}
+        }
+      },
       "FactoryMethodPattern/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -40,6 +50,11 @@
       "path": "../AdapterPattern/AdapterPattern.csproj",
       "msbuildProject": "../AdapterPattern/AdapterPattern.csproj"
     },
+    "DecoratorPattern/1.0.0": {
+      "type": "project",
+      "path": "../DecoratorPattern/DecoratorPattern.csproj",
+      "msbuildProject": "../DecoratorPattern/DecoratorPattern.csproj"
+    },
     "FactoryMethodPattern/1.0.0": {
       "type": "project",
       "path": "../FactoryMethodPattern/FactoryMethodPattern.csproj",
@@ -54,6 +69,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "AdapterPattern >= 1.0.0",
+      "DecoratorPattern >= 1.0.0",
       "FactoryMethodPattern >= 1.0.0",
       "SingletonPattern >= 1.0.0"
     ]
@@ -93,6 +109,9 @@
           "projectReferences": {
             "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\AdapterPattern\\AdapterPattern.csproj": {
               "projectPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\AdapterPattern\\AdapterPattern.csproj"
+            },
+            "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\DecoratorPattern\\DecoratorPattern.csproj": {
+              "projectPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\DecoratorPattern\\DecoratorPattern.csproj"
             },
             "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\FactoryMethodPattern\\FactoryMethodPattern.csproj": {
               "projectPath": "D:\\Source\\Repos\\CSharp\\Design-Patterns\\src\\FactoryMethodPattern\\FactoryMethodPattern.csproj"

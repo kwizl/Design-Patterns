@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AdapterPattern;
+using DecoratorPattern;
 using FactoryMethodPattern;
 using SingletonPattern;
 
@@ -54,3 +55,22 @@ Console.WriteLine(jsonService.GetWeatherJson());
 XmlWeatherService xmlWeatherService = new XmlWeatherService();
 IJsonWeatherProvider adapter = new XmlToJsonWeatherAdapter(xmlWeatherService);
 Console.WriteLine(adapter.GetWeatherJson());
+
+
+
+// DECORATOR PATTERN
+Coffee simpleCoffee = new SimpleCoffee();
+Console.WriteLine($"{simpleCoffee.Description}: {simpleCoffee.Cost}");
+
+Coffee milkCoffee = new MilkDecorator(simpleCoffee);
+Console.WriteLine($"{milkCoffee.Description}: {milkCoffee.Cost}");
+
+Coffee sugarCoffee = new SugarDecorator(milkCoffee);
+Console.WriteLine($"{sugarCoffee.Description}: {sugarCoffee.Cost}");
+
+IRequest request = new BasicRequest();
+request = new LoggingMiddleware(request);
+request = new CachingMiddleware(request);
+request = new AuthenticationMiddleware(request);
+
+request.Process();
