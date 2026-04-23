@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using AdapterPattern;
 using FactoryMethodPattern;
 using SingletonPattern;
 
@@ -43,3 +44,13 @@ bankTransferGateway.ProcessPayment(amountToPay);
 
 IPaymentGateway cryptoGateway = PaymentGatewayFactory.CreatePaymentGateway("Crypto");
 cryptoGateway.ProcessPayment(amountToPay);
+
+
+
+// ADAPTER PATTERN
+IJsonWeatherProvider jsonService = new JsonWeatherService();
+Console.WriteLine(jsonService.GetWeatherJson());
+
+XmlWeatherService xmlWeatherService = new XmlWeatherService();
+IJsonWeatherProvider adapter = new XmlToJsonWeatherAdapter(xmlWeatherService);
+Console.WriteLine(adapter.GetWeatherJson());
