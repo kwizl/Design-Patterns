@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AdapterPattern;
+using BuilderPattern;
 using DecoratorPattern;
 using FactoryMethodPattern;
 using SingletonPattern;
@@ -74,3 +75,21 @@ request = new CachingMiddleware(request);
 request = new AuthenticationMiddleware(request);
 
 request.Process();
+
+
+
+// BUILDER PATTERN
+var warriorBuilder = new WarriorBuilder();
+var scribeBuilder = new ScribeBuilder();
+
+var creator = new CharacterCreator(warriorBuilder);
+creator.CreateCharacter();
+
+var warrior = creator.GetCharacter();
+warrior.Show();
+
+creator = new CharacterCreator(scribeBuilder);
+creator.CreateCharacter();
+
+var scribe = creator.GetCharacter();
+scribe.Show();
